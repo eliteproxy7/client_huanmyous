@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords"
+          content="美国房产,美国二手房,美国新房,美国房产数据,美国房产报告,美国房产税,洛杉矶房产,尔湾房产,旧金山房产,西雅图房产,纽约房产,波士顿房产,奥兰多房产,亚特兰大房产,休斯顿房产,达拉斯房产,新泽西房产,波特兰房产,美国房屋贷款,美国遗产税,美国物业费,贝尔维尤房产,美国房产经纪人,美国房产数据">
+    <meta name="description"
+          content="优房数据每周更新同步美国房产权威房源,包括洛杉矶,旧金山,西雅图,纽约,波士顿房产,奥兰多,亚特兰大,休斯顿,达拉斯,新泽西,波特兰等多地房产。定期发布各类美国房产数据分析。">
+    <title>优房数据B端CRM系统</title>
+    <link rel="icon" type="text/css" href="static/img/logoIc.png"/>
+    <!--加载进度条-->
+    <link href="static/css/pace-theme-flash.css" rel="stylesheet"/>
+    <!--公共样式-->
+    <link href="static/css/base.css" rel="stylesheet"/>
+
+    <!--加载阿里的移动端rem算法-->
+    <script type="text/javascript">
+        (function () {
+            if (window.screen.width < 725) {
+                loadJs('static/js/flexible.js')
+            } else {
+                document.getElementsByTagName('html')[0].style.fontSize = '40px';
+            }
+        })();
+
+        function loadJs(src) {
+            var head = document.getElementsByTagName('head')[0];
+            var s = document.createElement("script");
+            s.type = "text/javascript";
+            s.src = src;
+            head.appendChild(s);
+        }
+    </script>
+</head>
+<body>
+<div id="app"></div>
+<!--加载进度条-->
+<script src="static/js/pace.min.js"></script>
+
+<!--Google地图-->
+<script src="http://maps.google.cn/maps/api/js?region=cn&language=zh-CN&key=AIzaSyDH6NBqY397pB_dQfDyb4jLwVD73FeOELU"></script>
+<!--google map自定义标签样式标注点-->
+<script src="static/js/richmarker.js"></script>
+<!--google map点聚合-->
+<script src="static/js/markerclusterer.js"></script>
+<!--google map经纬度重合点击拆分-->
+<script src="static/js/oms.js"></script>
+<!--google map绘制多边形区域时判断是否相交-->
+<script src="https://cdn.bootcss.com/jsts/1.6.0/jsts.min.js"></script>
+<script src="https://cdn.bootcss.com/Turf.js/5.1.6/turf.min.js"></script>
+</body>
+</html>
